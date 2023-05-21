@@ -18,7 +18,7 @@ data Code = Evaluate Expr
 v = Variable
 f = Function
 a = Application
-macro = undefined -- TODO 3. add shorthand for Macro
+macro = (String, Expr)-- TODO 3. add shorthand for Macro
 
 -- show instance 
 instance Show Expr where
